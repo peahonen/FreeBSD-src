@@ -91,6 +91,13 @@ device		carp
 device		lagg
 device		vte
 
+device		uhci
+device		ohci
+device		usb
+device		miibus
+device		uether
+device		ipheth
+
 # IP/IPFW
 options		IPFIREWALL_DEFAULT_TO_ACCEPT
 options		IPFIREWALL_VERBOSE
